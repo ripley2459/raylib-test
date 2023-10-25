@@ -27,6 +27,12 @@ endif ()
 add_executable(${PROJECT_NAME} main.cpp src/player/Player.cpp
         src/widgets/Bar.cpp
         src/widgets/Bar.h
+        src/event/IEvent.cpp
+        src/event/IEvent.h
+        src/event/EventDispatcher.cpp
+        src/event/EventDispatcher.h
+        src/event/Event.cpp
+        src/event/Event.h
 )
 
 #set(raylib_VERBOSE 1)
